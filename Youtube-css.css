@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    background-color: blue;
+
+}
+.heading{
+    color: red;
+}
+button{
+    background-color: aqua;
+    color: azure;
+}
+.clipPath{
+    clip-path: circle(50% at 50% 50%);
+}

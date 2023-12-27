@@ -1,0 +1,207 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#container{
+  display:flex;
+  height:230vh;
+  width:100vw; 
+  background-color:transparent; 
+  border:2px solid black; 
+      
+ } 
+.nav{
+  display:flex;
+  height:70px;
+  width:80vh;
+  background-color:white;
+} 
+  
+.line{
+  margin-left: 2rem;
+  margin-right: 15px;
+  margin-top: 20px;
+  align-items: 20px;
+  font-size: 20px;
+} 
+  
+.logo{
+  height:10vh;
+  width:5rem;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+input{
+  height: 7vh;
+  width:41vw; 
+  margin-top: 11px;
+  margin-left:9rem; 
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right:10px ;
+  font-size: 20px;
+  border: 2px solid black;
+}
+#search{
+    background-color:lightgray;
+    margin-top: 10px;
+    margin-left: -4rem;
+    height:6vh;
+    width:63px;
+    border-left: 1px solid black;
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px ;
+  
+
+}
+#mike{
+    height:6vh;
+    margin-top: 18px;
+    margin-left:2rem;
+    border-radius: 100%;
+    font-size: 15px;
+    background-color:lightgray;
+    padding: 10px;  
+   
+
+   
+}
+#vedio-icon {
+    margin-left: 11rem;
+    margin-top:25px;
+    font-size: 21px;
+
+   
+}
+#bell-icon{
+    margin-top: 23px;
+    margin-left: 3rem;
+    font-size: 21px;
+
+}
+#profile-image img{
+    height:2rem;
+    width:2rem;
+    margin-top: 1rem;
+    border-radius: 100%;
+    /* border: 2px solid black; */
+    margin-left: 3rem;
+    
+}
+#nav_side{
+  display:flex;
+
+
+
+
+}
+.list{
+ height:75vh;
+ width:16vw;
+ overflow: hidden;
+ overflow-y:scroll ;
+ cursor: pointer;
+ font-size: large;
+ margin-left: -28rem;
+ margin-top:7rem;
+
+}
+
+.list p{
+  margin-left: 10px;
+
+
+}
+.list i{
+  margin-right: 10px;
+}
+.list h1{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.subcrip img{
+  height:23px;
+  width:24px;
+  border-radius: 100%;
+  margin-left:8px; ;
+}
+.subcrip i{
+  margin-left: 8px;
+}
+.more i{
+  color: red;
+}
+
+#panal{
+  height: 8vh;
+  width:83vw;
+  margin-top: 5rem;
+  justify-content: space-between;
+ 
+
+}
+#panal button{
+  margin-left:25px;
+  margin-top:-3rem;
+  height:6vh;
+  width:6vw;
+  cursor: pointer;
+  border-radius: 11%;
+  border: none;
+ 
+
+}
+
+.butt{
+  background-color: black;
+  color: white;
+  width:20vw;
+ 
+
+
+}
+#vedio{
+  display:grid;
+  height:110vh;
+  width:85vw;
+  grid-template-columns:320px 320px 320px ;
+  grid-template-rows:250px 250px 250px ;
+  column-gap:25px ;
+  row-gap:40px ;
+  margin-top: 8rem;
+  margin-left: -65rem;
+
+
+}  
+
+.box1{
+  height: 200px;
+  width: 330px;
+  border: 2px solid black;
+  border-radius: 8%;
+  border: none;
+}
+
+.box1,
+iframe{
+  border-radius: 20px;
+}
+.box1
+text,img{
+  height:28px;
+  width:28px;
+  border-radius: 100px;
+}
+
+body {
+  overflow-x: hidden; /* sirf horizontal scroll bar ko hide karne ke liye */
+}
+
+
+
+
+
+
