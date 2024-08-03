@@ -7,7 +7,7 @@
 }
 #container{
   display:flex;
-  height:230vh;
+  height:235vh;
   width:100vw; 
   background-color:transparent; 
   border:2px solid black; 
@@ -87,7 +87,6 @@ input{
     width:2rem;
     margin-top: 1rem;
     border-radius: 100%;
-    /* border: 2px solid black; */
     margin-left: 3rem;
     
 }
@@ -197,9 +196,14 @@ text,img{
 }
 
 body {
-  overflow-x: hidden; /* sirf horizontal scroll bar ko hide karne ke liye */
+  overflow-x: hidden; 
 }
 
+
+
+
+  
+   
 
 
 
